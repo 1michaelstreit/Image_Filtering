@@ -3,7 +3,8 @@
 ## project summary
 
 ## local run instructions
-`source MIA-App_env/bin/activate`
+in MSYS2 UCRT64 environment:
+`source MIA-App_env/bin/activate` <br>
 `streamlit run app.py`
 
 ## Hugging Face Space URL

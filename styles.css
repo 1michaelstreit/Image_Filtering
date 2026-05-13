@@ -1,0 +1,7 @@
+[data-testid="stMetricValue"] {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: clamp(0.8rem, 1vw, 1rem);
+}

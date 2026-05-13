@@ -1,0 +1,41 @@
+####################################################
+Problem Topic:
+
+- Fitering for preprocessing
+
+####################################################
+Walkthrough:
+
+- load image
+- select Noise/filter/Kernel Size
+
+####################################################
+exploration of parameters:
+
+Gaussian greyscale : gaussian distributed
+white noise : uniform distributed
+
+- Gaussian white noise -> 
+1. Non-local mean
+2. Bilateral
+3. Gaussian Blur
+4. Mean Blur
+
+Salt & peper -> 
+1. Median Blur (removes outlier, preserve edges)
+
+white grayscale noise ->
+1. Non-local mean
+2. Bilateral
+3. Gaussian
+
+Kernel Size:
+small : 
+ - keeps more detail
+ - light smooting
+ - weak noise reduction
+
+ big :
+  - strong noise removal
+  - much blurrier 
+  - edges soften
